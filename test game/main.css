@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --white: #f5f3f4;
+    --red: #ba181b;
+}
+
+html {
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: caveat;
+    font-size: 1.3rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--red);
+    position:
+}
+
+.logo {
+    color: var(--white);
+    font-family: Caveat;
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 2rem;
+}
+
+.logo:hover{
+    opacity: 70%;
+}
+
+.logo:active{
+    opacity: 60%;
+}
+
+nav {
+    margin: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2em;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: var(--white);
+    font-weight: 500;
+
+}
+
+nav ul li a:hover {
+    opacity: 70%;
+}
+
+nav ul li a:active {
+    opacity: 50%;
+}
+
+.name-title{
+    margin-top: 6vh;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title {
+    color: black;
+    font-family: caveat;
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+}
+
+.poza {
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.descriere-text {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+i {
+    font-size: 3rem;
+}
+
+section a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-brands:hover {
+    color: var(--red);
+    transform: translateY(-5px);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.projects {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    background-color: #ededed;
+}
+
+.projects-title {
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+}
+
+.projects-subtitle {
+    text-decoration: underline;
+    color: #343a40;
+    font-weight: 400;
+}
+
